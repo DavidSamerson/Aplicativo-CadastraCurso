@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-$IMPORTSTATEMENT
+import { NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the Financeiro page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-$IONICPAGE
+
 @Component({
   selector: 'page-financeiro',
   templateUrl: 'financeiro.html',
