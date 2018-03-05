@@ -37,11 +37,11 @@
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
     "cordova-plugin-console",
-    "cordova-plugin-statusbar",
     "cordova-plugin-device",
+    "cordova-plugin-statusbar",
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "cadastrocurso: An Ionic project"
+  "description": "CadastraCurso: An Ionic project"
 }
