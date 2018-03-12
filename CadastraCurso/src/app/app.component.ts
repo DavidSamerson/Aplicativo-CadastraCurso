@@ -1,6 +1,6 @@
 
 import { Component, ViewChild } from '@angular/core';
-import { Platform, NavController, Nav } from 'ionic-angular';
+import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -32,7 +32,7 @@ export class MyApp {
   chamaCA() : void {
     this.nav.push(CAlunos);
   }
-  chamaCC() : void {
+  chamaLC() : void {
     this.nav.push(CCursos);
   }
   chamaLA() : void {
