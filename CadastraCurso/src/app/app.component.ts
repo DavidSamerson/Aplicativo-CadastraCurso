@@ -4,11 +4,11 @@ import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { Login } from '../pages/login/login';
 import { CAlunos } from './../pages/c-alunos/c-alunos';
 import { CCursos } from './../pages/c-cursos/c-cursos';
 import { LAlunos } from '../pages/l-alunos/l-alunos';
 
-import { TabsPage } from '../pages/tabs/tabs';
 
 
 @Component({
@@ -17,7 +17,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 export class MyApp {
   
   @ViewChild(Nav) nav : Nav;
-  rootPage:any = TabsPage;
+  rootPage:any = Login;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
