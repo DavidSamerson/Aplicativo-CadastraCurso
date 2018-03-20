@@ -38,4 +38,8 @@ export class MyApp {
   chamaLA() : void {
     this.nav.push(LAlunos);
   }
+
+  sair() : void {
+    this.nav.setRoot(Login);
+  }
 }

@@ -1,5 +1,13 @@
 // http://ionicframework.com/docs/theming/
-
+.menu {
+    align-content: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
 // styles are for the entire app and not just one component.

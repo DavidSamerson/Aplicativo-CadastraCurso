@@ -9,17 +9,29 @@
         </ion-header>
         <ion-content color="background-text">
           <ion-list>
-            <button ion-item (click)="openPage(homePage)">
-              Home
-            </button>
             <button ion-item (click)="chamaCA()" menuClose>
+              <ion-avatar item-start class="menu">
+                <ion-icon name="person-add"></ion-icon>
+              </ion-avatar>
               Cadastro de Alunos
             </button>
             <button ion-item (click)="chamaLC()" menuClose>
-              Listagem de Cursos
+                <ion-avatar item-start class="menu">
+                  <ion-icon name="paper"></ion-icon>
+                </ion-avatar>
+              Cadastro de Cursos
             </button>
             <button ion-item (click)="chamaLA()" menuClose>
+                <ion-avatar item-start class="menu">
+                  <ion-icon name="man"></ion-icon>
+                </ion-avatar>
               Listagem de Alunos
+            </button>
+            <button ion-item (click)="sair()" menuClose>
+                <ion-avatar item-start class="menu">
+                  <ion-icon name="exit"></ion-icon>
+                </ion-avatar>
+              Sair
             </button>
           </ion-list>
         </ion-content>
