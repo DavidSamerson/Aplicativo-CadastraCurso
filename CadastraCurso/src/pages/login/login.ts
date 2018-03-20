@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { TabsPage } from './../tabs/tabs';
+import { Cadastro } from './../cadastro/cadastro';
 
 @Component({
   selector: 'page-login',
@@ -19,6 +20,10 @@ export class Login {
   entrar() : void {
     
       this.navCtrl.setRoot(TabsPage);
+  }
+
+  cadastro() : void  {
+    this.navCtrl.push(Cadastro);
   }
 
 }
