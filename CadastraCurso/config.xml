@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.cadastracurso290421" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.cadastracurso612960" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>CadastraCurso</name>
-  <description>Aplicativo criado para divulgação de um modelo de aplicação</description>
+  <description>Aplicativo de cadastro em cursos.</description>
   <author email="samerson10@gmail.com" href="https://github.com/DavidSamerson">David Samerson</author>
   <content src="index.html"/>
   <access origin="*"/>
